@@ -19,7 +19,7 @@ export const RecipeDetails = ({ ingredients }: any) => {
           <span role='img' aria-label='ingredients Weight'>
             ⚖️
           </span>
-          {weight}
+          {weight} g
         </li>
       </ul>
     </>
