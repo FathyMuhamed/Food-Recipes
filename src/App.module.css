@@ -1,7 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 body {
   box-sizing: border-box;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Rubik", sans-serif;
 }
 
 nav {
@@ -14,10 +14,11 @@ nav {
 .logo {
   background-color: red;
   color: white;
-  margin: 0.5em;
+  margin: 0.5em 0.5em 0.7em;
+  padding: 0.1em 0.3em;
   text-align: center;
   width: fit-content;
-  transform: skew(11deg, -2deg) scale(1.1);
+  transform: skew(0deg, -2deg) scale(1.1);
   filter: drop-shadow(1px 2px 1px #5553);
 }
 .input {
@@ -25,7 +26,7 @@ nav {
   text-align: center;
   margin: 7px 10px 7px;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 0.9em;
   border: 1px solid black;
 }
 
@@ -46,13 +47,12 @@ nav {
 .Recipe h2 {
   position: absolute;
   top: -2px;
-  right: -19px;
+  right: 3px;
   color: white;
   background-color: red;
   padding-top: 2px;
   text-align: center;
-  transform: skew(-16deg, 15deg);
-  font-size: 1em;
+  font-size: 0.9em;
   width: clamp(10em, 15vw, 15vw);
 }
 @media screen and (min-width: 1000) {
@@ -111,7 +111,6 @@ span {
   padding: 2em 4em;
   border-radius: 10px;
   text-align: center;
-
 }
 .recipeDetails ol ul {
   list-style: none;
