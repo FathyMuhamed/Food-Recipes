@@ -7,3 +7,10 @@ export const FetchData = async (query: string) => {
   const result = await axios.get(url);
   return result.data.hits;
 };
+
+export const FetchAll = async () => {
+  const url = `https://api.edamam.com/api/recipes/v2?type=public&q=cake&app_id=${APP_ID}&app_key=${APP_KEY}
+`;
+  const result = await axios.get(url);
+  return result.data.hits;
+};

@@ -11,6 +11,9 @@ nav {
   justify-items: center;
   border-bottom: 1px solid #5553;
 }
+nav a{
+  text-decoration: none;
+}
 .logo {
   background-color: red;
   color: white;
